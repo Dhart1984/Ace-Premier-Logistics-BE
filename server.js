@@ -29,7 +29,7 @@ app.use(morgan("dev"))
 ////////////
 //ROUTER-MIDDLEWARE
 ////////////
-app.use('/applicant', applicantRouter)
+app.use('/applicants', applicantRouter)
 
 
 
