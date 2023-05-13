@@ -16,11 +16,11 @@ const applicantSchema = new mongoose.Schema({
 
     }, phoneNumber: {
         type: Number,
-        required: true,
+        // required: true,
     },
     validLicense: {
         type: Boolean,
-        required: true
+        // required: true
 
 
     }, resumeLink: {

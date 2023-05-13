@@ -22,7 +22,7 @@ async function create(req,res,next) {
     // create new person
     res.json(await Applicant.create(req.body));
   } catch (error) {
-    //send error
+    console.log(error)
     res.status(400).json(error);
   }
 };
